@@ -1,6 +1,6 @@
 // Product data
 const products = [
-    { id: 1, name: 'Minyakita', price: 36000, category: 'Minyak', image: '/api/placeholder/80/80' },
+    { id: 1, name: 'Minyakita', price: 36000, category: 'Minyak', image: '/api/placeholde' },
     { id: 2, name: 'Beras', price: 15000, category: 'Beras', image: '/api/placeholder/80/80' },
     { id: 3, name: 'Gas LPG 3kg', price: 20000, category: 'Gas', image: '/api/placeholder/80/80', 
       description: 'Gas LPG 3 kg adalah bahan bakar memasak bersubsidi yang ringan, praktis, hemat, dan mudah digunakan untuk kebutuhan rumah tangga sehari-hari.' },
