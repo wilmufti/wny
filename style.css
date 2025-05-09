@@ -300,8 +300,8 @@ h2 {
 /* Cart Page */
 .cart-item {
     display: flex;
-    margin-bottom: 15px;
-    padding-bottom: 15px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
     border-bottom: 1px solid #eee;
 }
 

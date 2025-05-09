@@ -45,6 +45,14 @@ function loadCartItems() {
             cartItemsContainer.appendChild(cartItemElement);
         });
         
+        document.querySelectorAll('.remove-button').forEach(button => {
+            button.addEventListener('click', function() {
+                const index = this.getAttribute('data-index');
+                removeItem(parseInt(index));
+            });
+        });
+        
+
         // Update total price
         document.querySelector('.total-price').textContent = `Rp. ${totalPrice.toLocaleString()}`;
     } else {
